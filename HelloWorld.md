@@ -2,7 +2,10 @@
 title: "HelloWorld"
 author: "you!"
 date: "4/28/2020"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 ---
 
 ```{r setup, include=FALSE}
